@@ -14,10 +14,11 @@ Copy/paste a skill folder from this repo into your project’s skills directory.
 Example:
 
 ```bash
-cp -R ".claude/skills/flutter-structure-guide" "/path/to/your-project/.claude/skills/"
+cp -R ".claude/skills/<skill-folder>" "/path/to/your-project/.claude/skills/"
 ```
 
 ## Skills in this repo
 
 - **`flutter-structure-guide`**: Enforces a detailed Flutter app folder structure and placement rules (Riverpod + Hive + Dio + secure storage). Source: `.claude/skills/flutter-structure-guide/SKILL.md`
+- **`code-decoder`**: Helps explain AI-generated code by building a mental model: system context, block-by-block intent, risks/gotchas, and a concrete test suggestion. Source: `.claude/skills/code-decoder/SKILL.md`
 
