@@ -21,4 +21,4 @@ cp -R ".claude/skills/<skill-folder>" "/path/to/your-project/.claude/skills/"
 
 - **`flutter-structure-guide`**: Enforces a detailed Flutter app folder structure and placement rules (Riverpod + Hive + Dio + secure storage). Source: `.claude/skills/flutter-structure-guide/SKILL.md`
 - **`code-decoder`**: Helps explain AI-generated code by building a mental model: system context, block-by-block intent, risks/gotchas, and a concrete test suggestion. Source: `.claude/skills/code-decoder/SKILL.md`
-
+- **`smart-commit`**: Sanity-checks staged changes, suggests a Conventional Commit message, and walks through committing (optionally pushing) in one flow. Source: `.claude/skills/smart-commit/SKILL.md`
